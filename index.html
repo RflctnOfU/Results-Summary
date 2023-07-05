@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    
+    <link href="./dist/output.css" rel="stylesheet">
+
+    <title>Frontend Mentor | Results summary component</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+     <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+      /* body {
+        width: 100vw;
+        height: 100vw;
+      }
+      .container {
+        display: flex;
+        flex-direction: column;
+      }
+      .score {
+        border-radius: 100%;
+        background-image: linear-gradient();
+      }
+
+      @media screen and (min-width: 768px) {
+        body {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        }
+        .container {
+          display: flex;
+          flex-direction: row;
+        }
+      }  */
+    </style>
+    
+  </head>
+  <body class="lg:flex lg:flex-col lg:justify-center lg:items-center h-screen w-full fancy">
+    <div class="lg:w-[40%] flex lg:flex-row lg:rounded-3xl lg:shadow-lg lg:h-1/2 flex-col h-full ">
+      <header class="bg-gradient-to-b from-[#7857ff] to-[#2e2be9] lg:rounded-3xl flex flex-col items-center gap-6 lg:w-1/2 lg:h-full h-1/2 rounded-b-3xl">
+        <p class="text-[#ebf1ff]">Your Result</p>
+        <div class="rounded-full w-[150px] h-[150px] mx-auto flex flex-col items-center justify-center bg-gradient-to-b from-[#4e21ca] to-[#2421ca]">
+          <div class="text-white text-6xl font-bold mt-6">76</div>
+          <div class="text-[#c8c7ff]">of 100</div>
+        </div>
+        <h3 class="text-white text-3xl">Great</h2>
+        <p class="text-center text-[18px] px-[30px] text-[#c8c7ff]">
+          You scored higher than 65% of the people who have taken these tests.
+        </p>
+      </header>
+      <div class="flex flex-col p-8 gap-4 lg:w-1/2 w-full">
+        <h2 class="text-xl font-bold">Summary</h2> 
+        <div class="flex flex-col gap-2 w-full" id="info-card">
+          <div class="w-full flex justify-between rounded-xl bg-[hsl(0_100%_67%)] bg-opacity-[.07] text-[hsl(0_100%_67%)] p-3"><div class="flex"><img src="./assets/images/icon-reaction.svg" class="pr-2">Reaction</div> <div><span class="text-[hsl(241_100%_89%)] ml-8"><span class="text-black font-semibold">80</span> / 100</span></div></div> 
+          <div class="w-full flex justify-between rounded-xl bg-[hsl(39_100%_56%)] bg-opacity-[.07] text-[hsl(39_100%_56%)] p-3"><div class="flex"><img src="./assets/images/icon-memory.svg" class="pr-2">Memory</div> <div><span class="text-[hsl(241_100%_89%)] ml-8"><span class="text-black font-semibold">92</span> / 100</span></div></div> 
+
+          <div class="w-full flex justify-between rounded-xl bg-[hsl(166_100%_37%)] bg-opacity-[.07] text-[hsl(166_100%_37%)] p-3"><div class="flex"><img src="./assets/images/icon-verbal.svg" class="pr-2">Verbal</div> <div><span class="text-[hsl(241_100%_89%)] ml-8"><span class="text-black font-semibold">61</span> / 100</span></div></div>  
+          <div class="w-full flex justify-between rounded-xl bg-[hsl(234_85%_45%)] bg-opacity-[.07] text-[hsl(234_85%_45%)] p-3"><div class="flex"><img src="./assets/images/icon-visual.svg" class="pr-2">Visual</div> <div><span class="text-[hsl(241_100%_89%)] ml-8"><span class="text-black font-semibold">80</span> / 100</span></div></div> 
+        </div>
+        <button class="rounded-full w-full hover:bg-gradient-to-b hover:from-[hsl(252_100%_67%)] hover:to-[hsl(241_81%_54%)] bg-[hsl(224_30%_27%)] py-3 text-white">Continue</button>
+      </div>
+
+    </div>
+      <div class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by <a href="#">Kris Marshall</a>.
+      </div>
+      <script src="./assets/main.js"></script>
+  </body>
+</html>

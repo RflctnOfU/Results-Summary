@@ -1,0 +1,12 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+@font-face {
+  font-family: myFont;
+  src: url("../assets/fonts/HankenGrotesk-VariableFont_wght.ttf");
+}
+
+.fancy {
+  font-family: myFont;
+}
